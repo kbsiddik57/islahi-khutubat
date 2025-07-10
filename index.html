@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <title>সূচিপত্র</title>
+    <style>
+       @font-face { font-family: 'Kalpurush';    src: url('Kalpurush.woff2') format('woff2'),         url('Kalpurush.woff') format('woff'),         url('Kalpurush.ttf') format('truetype');    font-weight: normal;    font-style: normal;    font-display: swap; }
+       body { font-family: 'Kalpurush', sans-serif;    margin: 0;    padding: 0;    background-color: #fff9c4;    color: #222;    line-height: 1.6;}
+       h3 { font-size: 1.7rem;    font-weight: bold;    margin: 1rem 0 0.5rem;    color: #333;    text-align: center;}
+       h4 { font-size: 1.5rem;    font-weight: bold;    margin: 1rem 0 0.5rem;    color: #333;    text-align: center;}
+       p { font-size: 1.30rem;    margin-bottom: 1rem;    text-align: center;}
+       .container { max-width: 764px;    margin: 2rem auto;    padding: 1.5rem;    background-color: #e0e0e0;    border-radius: 8px;    box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+       @media (max-width: 768px) {.container { margin: 1rem;    padding: 1rem; }}
+    </style>
+</head>
+<body>
+    <h3>ইসলাহী খুতুবাত</h3>
+<div class="container">
+    <h4>সূচিপত্র</h4>
+    <p>
+        <a href="1.1-Nek.kaje.bilombo.noy.html" target="_blank">নেক কাজে বিলম্ব করতে নেই</a>
+    </p>
+</div>
+    
+    <script>
+      // স্ক্রল পজিশন সংরক্ষণ
+      window.addEventListener("beforeunload", function () {localStorage.setItem("scrollPosition", window.scrollY);});
+
+      // স্ক্রল পজিশন পুনরুদ্ধার
+      window.addEventListener("load", function () { const savedPosition = localStorage.getItem("scrollPosition");
+             if (savedPosition !== null) { window.scrollTo(0, parseInt(savedPosition)); }});
+    </script>
+</body>
+</html>
